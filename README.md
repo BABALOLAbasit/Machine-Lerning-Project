@@ -50,11 +50,6 @@ In the initial data preparation phase, i perform the following tasks:
 
 - The best model chosen for the project is LogisticRegression with Hyperparameter(C=10) and Countvectorizer (with a train and test accuracy of 86% and 82% respectively
 
-  ![Confusion Matrix](confusion_matrix.JPG)
-
-  ![confusion_matrix](https://github.com/BABALOLAbasit/ingryd_capstone_project/assets/140013199/03ddc166-6ee0-4f59-8672-5f24aa819e79)
-
-
 ### Limitations
 
 I had to resample to balance the data set, this is because the data was bias towards positive review significantly and that could have affected the accuracy of the model. This bias reduces the model's ability to generalize well to real-world data with a more balanced or different distribution.
